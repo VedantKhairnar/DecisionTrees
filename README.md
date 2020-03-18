@@ -28,10 +28,7 @@ For detailed theoretical explanation, click [here](https://medium.com/greyatom/d
         
   ### 2 Applications : 
         
-   1.a) Pneumnia Symptoms
-        
-   1.b) Fishiris dataset : (Flower : SepalLength,SepalWidth,PetalLength,PetalWidth,Name)
-        
+       
         All examples do the following steps:
         1. Load training data
         2. Let the decision tree grow
@@ -40,6 +37,48 @@ For detailed theoretical explanation, click [here](https://medium.com/greyatom/d
         5. Classifiy with missing data
         (6.) Prune the decision tree according to a minimal gain level
         (7.) Plot the pruned tree
+        
+   1.a) Pneumnia Symptoms
+   
+   ##### Output:
+   
+   
+        Column 4 == blubbernd?
+        yes -> Lungenentzuendung: 4
+        no  -> Column 2 == Punkt?
+                        yes -> Column 0 == ohne?
+                                        yes -> Tuberkulose: 1
+                                        no  -> Lungenentzuendung: 1
+                        no  -> Tuberkulose: 4
+        {'Tuberkulose': 4}
+        {'Tuberkulose': 3.3000000000000003, 'Lungenentzuendung': 0.1}
+
+   ![snap]()
+        
+   1.b) Fishiris dataset : (Flower : SepalLength,SepalWidth,PetalLength,PetalWidth,Name)
+   
+   ##### Output: 
+        A branch was pruned: gain = 0.146094
+        PetalLength >= 3?
+        yes -> PetalWidth >= 1.8?
+                        yes -> PetalLength >= 4.9?
+                                        yes -> virginica: 43
+                                        no  -> SepalLength >= 6?
+                                                        yes -> virginica: 2
+                                                        no  -> versicolor: 1
+                        no  -> PetalLength >= 5?
+                                        yes -> PetalWidth >= 1.6?
+                                                        yes -> SepalLength >= 7.2?
+                                                                        yes -> virginica: 1
+                                                                        no  -> versicolor: 2
+                                                        no  -> virginica: 3
+                                        no  -> versicolor: 47, virginica: 1
+        no  -> setosa: 50
+        
+        {'virginica': 3}
+        {'virginica': 0.5315890699277861, 'versicolor': 21.039735820299743, 'setosa': 26.218383713756943}
+        
+        ![snap]()
         
 ## Part 2) Using scikit-learn python library
    ###     Application:  
