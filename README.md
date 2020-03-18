@@ -1,4 +1,5 @@
-# DecisionTrees
+
+<h1 align="center">Decision Trees</h1>
 
 <div align="center">
 <img src="https://img.shields.io/github/license/VedantKhairnar/DecisionTrees">	
