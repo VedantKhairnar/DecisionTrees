@@ -38,7 +38,7 @@ For detailed theoretical explanation, click [here](https://medium.com/greyatom/d
         (6.) Prune the decision tree according to a minimal gain level
         (7.) Plot the pruned tree
         
-   1.a) Pneumnia Symptoms
+   #### 1.a) Pneumnia Symptoms
    
    ##### Output:
    
@@ -55,7 +55,7 @@ For detailed theoretical explanation, click [here](https://medium.com/greyatom/d
 
    ![snap](https://github.com/VedantKhairnar/DecisionTrees/blob/master/DecisionTrees/from_scratch/tbc.png)
         
-   1.b) Fishiris dataset : (Flower : SepalLength,SepalWidth,PetalLength,PetalWidth,Name)
+ ####  1.b) Fishiris dataset : (Flower : SepalLength,SepalWidth,PetalLength,PetalWidth,Name)
    
    ##### Output: 
         A branch was pruned: gain = 0.146094
@@ -83,10 +83,11 @@ For detailed theoretical explanation, click [here](https://medium.com/greyatom/d
 ## Part 2) Using scikit-learn python library
    ###     Application:  
    
-   Ensemble Learning
+   #### Ensemble Learning
     
     Using  a random forest of 10 decision trees to predict employment of specific candidate profiles
    
-![snap](https://github.com/VedantKhairnar/DecisionTrees/blob/master/DecisionTrees/from_scratch/tbc.png)
+   ##### Output:
+![snap](https://github.com/VedantKhairnar/DecisionTrees/blob/master/DecisionTrees/using_sklearn/pastHires.png)
 
-   Nt: Code explaned in the .py and .pynb file
+   Nt: Code explained in the .py and .pynb file of the respective subdirectories.
