@@ -8,6 +8,11 @@
 <img src="https://img.shields.io/badge/PRs-welcome-informational">
 </div>
 
+
+> “When your values are clear to you, making decisions become easier.”
+>  — Roy E. Disney
+
+
 A decision tree is a decision support tool that uses a tree-like graph or model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements.
 
 A decision tree is a flowchart-like structure in which each internal node represents a “test” on an attribute (e.g. whether a coin flip comes up heads or tails), each branch represents the outcome of the test, and each leaf node represents a class label (decision taken after computing all attributes). The paths from root to leaf represent classification rules.
