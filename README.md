@@ -25,7 +25,7 @@ Tree based learning algorithms are considered to be one of the best and mostly u
 
 For detailed theoretical explanation, click [here](https://medium.com/greyatom/decision-trees-a-simple-way-to-visualize-a-decision-dc506a403aeb)
 
-## Part 1) From Scratch
+## Part A) From Scratch
         
   ### 2 Applications : 
         
@@ -81,9 +81,9 @@ For detailed theoretical explanation, click [here](https://medium.com/greyatom/d
         
 ![snap](https://github.com/VedantKhairnar/DecisionTrees/blob/master/DecisionTrees/from_scratch/iris.png)
         
-## Part 2) Using scikit-learn python library
+## Part B) Using scikit-learn python library
    ###     Application:  
-   #### Ensemble Learning : Predict whether a person be employed on the basis of Previous employment, Internship, Years of Experience and Level of Education.
+   #### 1) Ensemble Learning : Predict whether a person be employed on the basis of Previous employment, Internship, Years of Experience and Level of Education.
    
     
     Using  a random forest of 10 decision trees to predict employment of specific candidate profiles
