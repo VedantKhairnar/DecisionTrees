@@ -38,7 +38,7 @@ For detailed theoretical explanation, click [here](https://medium.com/greyatom/d
         (6.) Prune the decision tree according to a minimal gain level
         (7.) Plot the pruned tree
         
-   #### 1.a) Pneumnia Symptoms
+   #### 1.a) Determine the disease as Pneumonia and Tuberculosis based on given impurity report of patient.
    
    ##### Output:
    
@@ -55,7 +55,7 @@ For detailed theoretical explanation, click [here](https://medium.com/greyatom/d
 
    ![snap](https://github.com/VedantKhairnar/DecisionTrees/blob/master/DecisionTrees/from_scratch/tbc.png)
         
- ####  1.b) Fishiris dataset : (Flower : SepalLength,SepalWidth,PetalLength,PetalWidth,Name)
+ ####  1.b) Classify the flower into virginica, versicolor and setosa based on Sepal Length, Sepal Width, Petal Length, Petal Width using the fishiris dataset.
    
    ##### Output: 
         A branch was pruned: gain = 0.146094
