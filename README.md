@@ -53,7 +53,7 @@ For detailed theoretical explanation, click [here](https://medium.com/greyatom/d
         {'Tuberkulose': 4}
         {'Tuberkulose': 3.3000000000000003, 'Lungenentzuendung': 0.1}
 
-   ![snap]()
+   ![snap](https://github.com/VedantKhairnar/DecisionTrees/blob/master/DecisionTrees/from_scratch/tbc.png)
         
    1.b) Fishiris dataset : (Flower : SepalLength,SepalWidth,PetalLength,PetalWidth,Name)
    
@@ -78,7 +78,7 @@ For detailed theoretical explanation, click [here](https://medium.com/greyatom/d
         {'virginica': 3}
         {'virginica': 0.5315890699277861, 'versicolor': 21.039735820299743, 'setosa': 26.218383713756943}
         
-        ![snap]()
+![snap](https://github.com/VedantKhairnar/DecisionTrees/blob/master/DecisionTrees/from_scratch/iris.png)
         
 ## Part 2) Using scikit-learn python library
    ###     Application:  
@@ -87,4 +87,6 @@ For detailed theoretical explanation, click [here](https://medium.com/greyatom/d
     
     Using  a random forest of 10 decision trees to predict employment of specific candidate profiles
    
+![snap](https://github.com/VedantKhairnar/DecisionTrees/blob/master/DecisionTrees/from_scratch/tbc.png)
+
    Nt: Code explaned in the .py and .pynb file
