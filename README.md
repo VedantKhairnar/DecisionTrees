@@ -55,7 +55,7 @@ For detailed theoretical explanation, click [here](https://medium.com/greyatom/d
 
    ![snap](https://github.com/VedantKhairnar/DecisionTrees/blob/master/DecisionTrees/from_scratch/tbc.png)
         
- ####  1.b) Classify the flower into virginica, versicolor and setosa based on Sepal Length, Sepal Width, Petal Length, Petal Width using the fishiris dataset.
+ ####  1.b) Classify the flower into type of Iris flower (virginica, versicolor and setosa)based on Sepal Length, Sepal Width, Petal Length, Petal Width using the fishiris dataset.
    
    ##### Output: 
         A branch was pruned: gain = 0.146094
@@ -82,8 +82,8 @@ For detailed theoretical explanation, click [here](https://medium.com/greyatom/d
         
 ## Part 2) Using scikit-learn python library
    ###     Application:  
+   #### Ensemble Learning : Predict whether a person be employed on the basis of Previous employment, Internship, Years of Experience and Level of Education.
    
-   #### Ensemble Learning
     
     Using  a random forest of 10 decision trees to predict employment of specific candidate profiles
    
