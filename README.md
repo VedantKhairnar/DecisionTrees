@@ -102,5 +102,5 @@ Although the tree construction algorithm attempts to generate balanced trees, th
 This has a cost of O(n_{features}n_{samples}\log(n_{samples})) at each node, leading to a total cost over the entire trees (by summing the cost at each node) of O(n_{features}n_{samples}^{2}\log(n_{samples})) .
 
 
-## Dev :
+#### Incase of any queries, connect me at :
 [Vedant Khairnar](http://vedantkhairnar.ml/)
