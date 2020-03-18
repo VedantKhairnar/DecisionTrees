@@ -91,3 +91,16 @@ For detailed theoretical explanation, click [here](https://medium.com/greyatom/d
 ![snap](https://github.com/VedantKhairnar/DecisionTrees/blob/master/DecisionTrees/using_sklearn/pastHires.png)
 
    Nt: Code explained in the .py and .pynb file of the respective subdirectories.
+
+
+## Complexity Analysis: 
+
+In general, the run time cost to construct a balanced binary tree is O(n_{samples}n_{features}\log(n_{samples})) and query time O(\log(n_{samples})) .
+
+Although the tree construction algorithm attempts to generate balanced trees, they will not always be balanced. Assuming that the subtrees remain approximately balanced, the cost at each node consists of searching through O(n_{features}) to find the feature that offers the largest reduction in entropy. 
+
+This has a cost of O(n_{features}n_{samples}\log(n_{samples})) at each node, leading to a total cost over the entire trees (by summing the cost at each node) of O(n_{features}n_{samples}^{2}\log(n_{samples})) .
+
+
+## Dev :
+    [Vedant Khairnar](http://vedantkhairnar.ml/)
