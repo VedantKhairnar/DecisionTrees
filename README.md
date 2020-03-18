@@ -17,9 +17,8 @@ A decision tree is a decision support tool that uses a tree-like graph or model 
 
 In simple words, it is a flowchart-like structure in which each internal node represents a “test” on an attribute (e.g. whether a coin flip comes up heads or tails), each branch represents the outcome of the test, and each leaf node represents a class label (decision taken after computing all attributes). The paths from root to leaf represent classification rules.
 
-<div align="center">
 ![Snap](https://github.com/VedantKhairnar/DecisionTrees/blob/master/img/dtree.png)
-</div>
+
 
 Tree based learning algorithms are considered to be one of the best and mostly used supervised learning methods. Tree based methods empower predictive models with high accuracy, stability and ease of interpretation. Unlike linear models, they map non-linear relationships quite well. They are adaptable at solving any kind of problem at hand (classification or regression). Decision Tree algorithms are referred to as CART (Classification and Regression Trees).
 
