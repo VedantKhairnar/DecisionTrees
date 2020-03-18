@@ -103,4 +103,4 @@ This has a cost of O(n_{features}n_{samples}\log(n_{samples})) at each node, lea
 
 
 ## Dev :
-    [Vedant Khairnar](http://vedantkhairnar.ml/)
+[Vedant Khairnar](http://vedantkhairnar.ml/)
