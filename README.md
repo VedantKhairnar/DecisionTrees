@@ -17,11 +17,11 @@ A decision tree is a flowchart-like structure in which each internal node repres
 
 Tree based learning algorithms are considered to be one of the best and mostly used supervised learning methods. Tree based methods empower predictive models with high accuracy, stability and ease of interpretation. Unlike linear models, they map non-linear relationships quite well. They are adaptable at solving any kind of problem at hand (classification or regression). Decision Tree algorithms are referred to as CART (Classification and Regression Trees).
 
-For detail theoretical explanation, click [here](https://medium.com/greyatom/decision-trees-a-simple-way-to-visualize-a-decision-dc506a403aeb)
+For detailed theoretical explanation, click [here](https://medium.com/greyatom/decision-trees-a-simple-way-to-visualize-a-decision-dc506a403aeb)
 
 ## Part 1) From Scratch
         
-  ### For 2 Applications : 
+  ### 2 Applications : 
         
    1.a) Pneumnia Symptoms
         
