@@ -1,6 +1,7 @@
 # DecisionTrees
 
 <div align="center">
+<img src="https://img.shields.io/github/license/VedantKhairnar/DecisionTrees">	
 <img src="https://img.shields.io/github/stars/VedantKhairnar/DecisionTrees">
 <img src="https://img.shields.io/github/forks/VedantKhairnar/DecisionTrees">
 <img src="https://img.shields.io/github/issues/VedantKhairnar/DecisionTrees">
