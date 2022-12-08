@@ -1,4 +1,4 @@
-certifi==2017.4.17
+certifi==2022.12.7
 pydotplus==2.0.2
 pyparsing==2.2.0
 wincertstore==0.2
